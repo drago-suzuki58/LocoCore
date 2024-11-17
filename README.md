@@ -4,13 +4,13 @@ LocoCore is a library that provides a base class for multilingual applications.
 By inheriting this class and implementing your own data loading logic, you can flexibly handle translation data from any data source such as JSON files or databases.
 If you want to use an already implemented subclass, please use [LocoJSON](https://github.com/drago-suzuki58/LocoJSON) or [LocoTOML](https://github.com/drago-suzuki58/LocoTOML).
 
-## このライブラリの使い方
+## How to use this library
 
 By inheriting the `LocoCore` base class and implementing the `_load_translations` method yourself, you can obtain translation data from your own files and achieve flexible implementation.
 
 As long as you can load each translation into `self.translations[locale]` (where `locale` is the specified language) in a nested dictionary format (such as `Dict[str, Dict[str, Any]]`), theoretically any file format is possible.
 
-## サンプルコード
+## Sample code
 
 Below is the code for the `LocoJSON` subclass library, which is an extension library.
 
