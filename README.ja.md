@@ -4,6 +4,8 @@ LocoCoreは、多言語対応アプリケーションの基盤となるクラス
 これを継承して独自のデータロードロジックを実装することで、JSONファイルやデータベースなど任意のデータソースから翻訳データを柔軟に扱うことができます。
 実際に使用できる継承クラスを使いたい場合、[LocoJSON](https://github.com/drago-suzuki58/LocoJSON)・[LocoTOML](https://github.com/drago-suzuki58/LocoTOML)を用いてください。
 
+English README [English](README.md)
+
 ## このライブラリの使い方
 
 `LocoCore`基底クラスを継承し、`_load_translations`メソッドを自身で実装していただくことで、独自のファイルから翻訳データを取得し、柔軟な実装ができるようになります。
