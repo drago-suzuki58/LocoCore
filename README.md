@@ -5,7 +5,7 @@ By inheriting this class and implementing your own data loading logic, you can f
 If you want to use an already implemented subclass, please use [LocoJSON](https://github.com/drago-suzuki58/LocoJSON) or [LocoTOML](https://github.com/drago-suzuki58/LocoTOML).
 
 Other Language LEADME (GitHub)
-[Japanese](https://github.com/drago-suzuki58/LocoJSON/blob/main/README.ja.md)
+[Japanese](https://github.com/drago-suzuki58/LocoCore/blob/main/README.ja.md)
 
 ## How to use this library
 
